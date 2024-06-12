@@ -63,7 +63,7 @@ def create_data_model():
         (10, 15),  # 15
         (11, 15),  # 16
     ]
-    data["num_vehicles"] = 4
+    data["num_vehicles"] = 10
     data["depot"] = 0
     return data
     # [END data_model]
@@ -103,6 +103,9 @@ def main():
     # Instantiate the data problem.
     # [START data]
     data = create_data_model()
+    for row in data["time_matrix"]:
+        print(row)
+    print("\n", data["time_windows"])
     # [END data]
 
     # Create the routing index manager.
