@@ -16,5 +16,5 @@
    - Implement variable start positions for engineers to enhance flexibility and optimization of routes.
 
 6. **Incorporating Service Time:**
-   - Incorporate service time into the time matrix. Directly adding service time to travel time may lead to slot adherence considering both travel and service time. Instead, add service time to the next path: \( time(j) = travel(i \rightarrow j) + service(i) \).
+   - Incorporate service time into the time matrix. Directly adding service time to travel time may lead to slot adherence considering both travel and service time. Instead, add service time to the next path: (time(j) = travel(i -> j) + service(i)).
 
